@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finance tracker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="main-container">
+      <h1>FINANCE TRACKER</h1>
+      <div>
+        <h2 id="bal-text">Balance:</h2>
+      </div>
+      <div id="input-container">
+        <input type="text" placeholder="Enter Discreption" id="dis" />
+        <input type="number" placeholder="Enter Amount" id="amt"/>
+        <select id = "type">
+          <option value="income">Income</option>
+          <option value="expense">Expense</option>
+        </select>
+        <button id="add">Add Transaction</button>
+      </div>
+      <div id="transcations">
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

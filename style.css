@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: gray;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+#main-container {
+  margin: 6%;
+  padding: 6%;
+  padding-top: 3%;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff, 0 0 15px #ff00ff,
+    0 0 20px #ff00ff, 0 0 25px #ff00ff;
+}
+h1 {
+  color: cornsilk;
+  text-decoration: overline;
+  text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.82);
+}
+#main-container div:first-of-type {
+  margin-top: 2%;
+  text-align: center;
+  text-shadow: 10px 5px 10px rgba(243, 240, 240, 0.82);
+}
+#input-container{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+#input-container input, #input-container button{
+    
+    padding: 2%;
+}
+#input-container button:hover{
+    background-color: transparent;
+    z-index: 4;
+    border: 2px solid #ff00ff;
+}
+/* #input-container section{
+    height: 50px;
+    font-size: 10px;
+} */
+ .his{
+    margin-top: 2%;
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    background-color: beige;
+ }
+
