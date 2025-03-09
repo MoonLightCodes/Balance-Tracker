@@ -1,4 +1,4 @@
-//localStorage.removeItem('bal');
+localStorage.removeItem('bal');
 localStorage.removeItem('transactions');
 if (!localStorage.getItem('bal')) {
     localStorage.setItem('bal', 0);
