@@ -1,5 +1,11 @@
 # Balance Tracker 
 https://moonlightcodes.github.io/Balance-Tracker/
-An Responcive web page that use local storage to keep update of income and expences for the trasactionn you made 
-a robust way of utilizing alerts and Date and Dynamic way of adding Transcations and loding trascation from local 
-use of vanilla css  
+A responsive web page designed to keep track of income and expenses. It utilizes local storage to maintain and update transaction data. Features include:
+
+Dynamic Addition and Loading of Transactions: Easily add new transactions and retrieve existing ones from local storage.
+
+Alert System: Utilize robust alerts to notify users of transaction updates.
+
+Date Integration: Automatically record and display transaction dates.
+
+Vanilla CSS Styling: Use simple, elegant CSS to create a user-friendly interface.
